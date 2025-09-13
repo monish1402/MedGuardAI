@@ -1,0 +1,320 @@
+2025-09-13 16:17:23,649 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-13 16:17:23,649 - medguard - INFO - _initialize_system:38 - Training anomaly detection model...
+2025-09-13 16:17:23,667 - medguard - ERROR - _initialize_system:55 - System initialization failed: operands could not be broadcast together with shapes (165,) (166,) 
+2025-09-13 16:17:23,671 - medguard - INFO - <module>:32 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-13 16:17:23,671 - medguard - INFO - initialize_application:20 - Initializing MedGuard AI database...
+2025-09-13 16:17:23,671 - medguard - INFO - initialize_application:24 - MedGuard AI system initialized successfully
+2025-09-13 16:17:23,671 - medguard - INFO - <module>:42 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-13 16:19:18,891 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-13 16:19:18,892 - medguard - INFO - _initialize_system:38 - Training anomaly detection model...
+2025-09-13 16:19:18,913 - medguard - ERROR - _initialize_system:55 - System initialization failed: only integer scalar arrays can be converted to a scalar index
+2025-09-13 16:19:18,919 - medguard - INFO - <module>:32 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-13 16:19:18,920 - medguard - INFO - initialize_application:20 - Initializing MedGuard AI database...
+2025-09-13 16:19:18,921 - medguard - INFO - initialize_application:24 - MedGuard AI system initialized successfully
+2025-09-13 16:19:18,922 - medguard - INFO - <module>:42 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-13 16:19:24,604 - medguard - INFO - handle_connect:249 - Client connected to WebSocket
+2025-09-13 16:19:26,166 - medguard - INFO - handle_disconnect:259 - Client disconnected from WebSocket
+2025-09-13 16:19:26,581 - medguard - INFO - handle_connect:249 - Client connected to WebSocket
+2025-09-13 16:20:51,353 - medguard - INFO - simulate_threat_scenario:147 - Simulating ransomware threat on device CT_SCANNER_4a5f6d96
+2025-09-13 16:20:51,377 - medguard - ERROR - analyze_device_threat:142 - Threat analysis failed for device CT_SCANNER_4a5f6d96: only integer scalar arrays can be converted to a scalar index
+2025-09-13 16:20:51,377 - medguard - ERROR - simulate_threat_scenario:185 - Threat simulation failed: 'threat_analysis'
+2025-09-13 16:21:06,104 - medguard - INFO - simulate_threat_scenario:147 - Simulating ransomware threat on device CT_SCANNER_4a5f6d96
+2025-09-13 16:21:06,121 - medguard - ERROR - analyze_device_threat:142 - Threat analysis failed for device CT_SCANNER_4a5f6d96: only integer scalar arrays can be converted to a scalar index
+2025-09-13 16:21:06,121 - medguard - ERROR - simulate_threat_scenario:185 - Threat simulation failed: 'threat_analysis'
+2025-09-13 16:21:16,249 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-13 16:21:16,250 - medguard - INFO - _initialize_system:38 - Training anomaly detection model...
+2025-09-13 16:21:16,267 - medguard - ERROR - _initialize_system:55 - System initialization failed: only integer scalar arrays can be converted to a scalar index
+2025-09-13 16:21:16,272 - medguard - INFO - <module>:32 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-13 16:21:16,272 - medguard - INFO - initialize_application:20 - Initializing MedGuard AI database...
+2025-09-13 16:21:16,272 - medguard - INFO - initialize_application:24 - MedGuard AI system initialized successfully
+2025-09-13 16:21:16,272 - medguard - INFO - <module>:42 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-13 16:21:20,803 - medguard - INFO - handle_connect:249 - Client connected to WebSocket
+2025-09-13 16:22:21,632 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-13 16:22:21,632 - medguard - INFO - _initialize_system:38 - Training anomaly detection model...
+2025-09-13 16:22:21,940 - medguard - INFO - _initialize_system:40 - Model training completed: {'training_time': 0.14199304580688477, 'samples_trained': 10000, 'features_count': 25, 'anomaly_ratio': 0.0514, 'mean_anomaly_score': -0.41599162005735263, 'model_accuracy': 0.92}
+2025-09-13 16:22:21,960 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-13 16:22:21,964 - medguard - INFO - <module>:32 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-13 16:22:21,964 - medguard - INFO - initialize_application:20 - Initializing MedGuard AI database...
+2025-09-13 16:22:21,965 - medguard - INFO - initialize_application:24 - MedGuard AI system initialized successfully
+2025-09-13 16:22:21,965 - medguard - INFO - <module>:42 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-13 16:22:42,727 - medguard - INFO - handle_connect:249 - Client connected to WebSocket
+2025-09-13 16:22:59,800 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device VENTILATOR_b37d6d81
+2025-09-13 16:22:59,857 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_b37d6d81: HIGH (1.00 confidence)
+2025-09-13 16:22:59,857 - medguard - ERROR - simulate_threat_scenario:185 - Threat simulation failed: Object of type bool_ is not JSON serializable
+2025-09-13 16:23:25,644 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-13 16:23:25,656 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-13 16:23:25,660 - medguard - INFO - <module>:32 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-13 16:23:25,660 - medguard - INFO - initialize_application:20 - Initializing MedGuard AI database...
+2025-09-13 16:23:25,661 - medguard - INFO - initialize_application:24 - MedGuard AI system initialized successfully
+2025-09-13 16:23:25,661 - medguard - INFO - <module>:42 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-13 16:23:30,920 - medguard - INFO - handle_connect:249 - Client connected to WebSocket
+2025-09-13 16:23:33,405 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device VENTILATOR_b37d6d81
+2025-09-13 16:23:33,570 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_b37d6d81: HIGH (1.00 confidence)
+2025-09-13 16:23:33,584 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on VENTILATOR_b37d6d81
+2025-09-13 16:24:13,441 - medguard - INFO - handle_connect:249 - Client connected to WebSocket
+2025-09-13 16:24:15,233 - medguard - INFO - handle_disconnect:259 - Client disconnected from WebSocket
+2025-09-13 16:28:47,993 - medguard - ERROR - get_system_diagnostics:229 - Error getting diagnostics: Object of type int64 is not JSON serializable
+2025-09-13 16:29:12,603 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_1e05e483
+2025-09-13 16:29:12,751 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_1e05e483: HIGH (1.00 confidence)
+2025-09-13 16:29:12,768 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_1e05e483
+2025-09-13 16:30:53,878 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device CT_SCANNER_800ed10e
+2025-09-13 16:30:55,042 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ct_scanner CT_SCANNER_800ed10e: HIGH (1.00 confidence)
+2025-09-13 16:30:55,064 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on CT_SCANNER_800ed10e
+2025-09-13 16:32:48,699 - medguard - ERROR - get_system_diagnostics:229 - Error getting diagnostics: Object of type int64 is not JSON serializable
+2025-09-13 16:34:04,134 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:04,161 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:04,185 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:04,939 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:04,959 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:04,972 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:06,029 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:06,045 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:06,067 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:06,435 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:06,462 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:06,477 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:06,874 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:06,895 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:06,908 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:08,524 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:08,546 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:08,561 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:09,265 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:09,287 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:09,302 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:09,925 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:09,948 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:09,961 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:10,389 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:10,405 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:10,417 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:10,865 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:10,899 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:10,927 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:11,305 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:11,340 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:11,366 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:11,749 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:11,769 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:11,783 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:12,184 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:12,202 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:12,216 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:13,604 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:13,620 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:13,631 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:14,045 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:14,061 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:14,072 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:14,539 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:14,556 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:14,570 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:14,944 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:14,962 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:14,976 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:15,389 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:15,406 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:15,417 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:15,804 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:15,821 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:15,833 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:18,485 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:18,697 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:18,709 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:19,204 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:19,236 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:19,249 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:19,729 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:19,746 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:19,758 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:20,165 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:20,184 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:20,195 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:20,585 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:20,610 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:20,624 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:21,024 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:21,039 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:21,056 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:21,474 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:21,506 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:21,518 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:21,945 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:21,974 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:21,990 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:22,389 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:22,413 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:22,443 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:22,840 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:22,867 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:22,886 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:23,279 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:23,296 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:23,308 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:24,512 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:34:24,531 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:34:24,543 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on PATIENT_MONITOR_0813070b
+2025-09-13 16:34:35,925 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device PATIENT_MONITOR_19f07b00
+2025-09-13 16:34:36,048 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (1.00 confidence)
+2025-09-13 16:34:36,060 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on PATIENT_MONITOR_19f07b00
+2025-09-13 16:34:47,591 - medguard - ERROR - get_system_diagnostics:229 - Error getting diagnostics: Object of type int64 is not JSON serializable
+2025-09-13 16:35:56,225 - medguard - ERROR - get_system_diagnostics:229 - Error getting diagnostics: Object of type int64 is not JSON serializable
+2025-09-13 16:36:05,910 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-13 16:36:05,927 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-13 16:36:05,932 - medguard - INFO - <module>:32 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-13 16:36:05,933 - medguard - INFO - initialize_application:20 - Initializing MedGuard AI database...
+2025-09-13 16:36:05,933 - medguard - INFO - initialize_application:24 - MedGuard AI system initialized successfully
+2025-09-13 16:36:05,933 - medguard - INFO - <module>:42 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-13 16:36:10,896 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 16:36:12,379 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 16:36:14,243 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-13 16:40:02,524 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-13 16:40:03,965 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 16:41:31,751 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_0813070b
+2025-09-13 16:41:31,808 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_0813070b: HIGH (1.00 confidence)
+2025-09-13 16:41:31,824 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_0813070b
+2025-09-13 16:42:27,963 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-13 16:42:27,974 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-13 16:42:27,978 - medguard - INFO - <module>:32 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-13 16:42:27,979 - medguard - INFO - initialize_application:20 - Initializing MedGuard AI database...
+2025-09-13 16:42:27,979 - medguard - INFO - initialize_application:24 - MedGuard AI system initialized successfully
+2025-09-13 16:42:27,979 - medguard - INFO - <module>:42 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-13 16:42:31,101 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 16:43:29,605 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device VENTILATOR_b37d6d81
+2025-09-13 16:43:29,667 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_b37d6d81: LOW (0.18 confidence)
+2025-09-13 16:43:29,687 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on VENTILATOR_b37d6d81
+2025-09-13 16:43:30,918 - medguard - INFO - simulate_threat_scenario:147 - Simulating ransomware threat on device VENTILATOR_d9ac304e
+2025-09-13 16:43:30,987 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_d9ac304e: LOW (0.18 confidence)
+2025-09-13 16:43:31,000 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: ransomware on VENTILATOR_d9ac304e
+2025-09-13 16:43:32,317 - medguard - INFO - simulate_threat_scenario:147 - Simulating device_compromise threat on device VENTILATOR_68e35623
+2025-09-13 16:43:32,341 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_68e35623: LOW (0.18 confidence)
+2025-09-13 16:43:32,361 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: device_compromise on VENTILATOR_68e35623
+2025-09-13 16:43:37,300 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 16:43:39,071 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-13 16:46:37,406 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-13 16:46:40,335 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 16:47:50,956 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-13 16:48:08,602 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 16:48:10,695 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-13 16:48:12,918 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 16:48:25,921 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device PATIENT_MONITOR_1e05e483
+2025-09-13 16:48:25,987 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_1e05e483: LOW (0.17 confidence)
+2025-09-13 16:48:25,999 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on PATIENT_MONITOR_1e05e483
+2025-09-13 16:51:18,762 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-13 16:51:18,774 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-13 16:51:18,779 - medguard - INFO - <module>:32 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-13 16:51:18,779 - medguard - INFO - initialize_application:20 - Initializing MedGuard AI database...
+2025-09-13 16:51:18,779 - medguard - INFO - initialize_application:24 - MedGuard AI system initialized successfully
+2025-09-13 16:51:18,780 - medguard - INFO - <module>:42 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-13 16:51:22,443 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 16:51:58,210 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device VENTILATOR_b37d6d81
+2025-09-13 16:51:58,211 - medguard - ERROR - analyze_device_threat:142 - Threat analysis failed for device VENTILATOR_b37d6d81: Model training or calibration failed
+2025-09-13 16:51:58,211 - medguard - ERROR - simulate_threat_scenario:185 - Threat simulation failed: 'threat_analysis'
+2025-09-13 16:52:00,335 - medguard - INFO - simulate_threat_scenario:147 - Simulating ransomware threat on device VENTILATOR_d9ac304e
+2025-09-13 16:52:00,335 - medguard - ERROR - analyze_device_threat:142 - Threat analysis failed for device VENTILATOR_d9ac304e: Model training or calibration failed
+2025-09-13 16:52:00,335 - medguard - ERROR - simulate_threat_scenario:185 - Threat simulation failed: 'threat_analysis'
+2025-09-13 16:52:01,467 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device VENTILATOR_68e35623
+2025-09-13 16:52:01,467 - medguard - ERROR - analyze_device_threat:142 - Threat analysis failed for device VENTILATOR_68e35623: Model training or calibration failed
+2025-09-13 16:52:01,468 - medguard - ERROR - simulate_threat_scenario:185 - Threat simulation failed: 'threat_analysis'
+2025-09-13 16:53:51,430 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-13 16:53:51,431 - medguard - INFO - _initialize_system:38 - Training anomaly detection model...
+2025-09-13 16:53:51,809 - medguard - INFO - _initialize_system:40 - Model training completed: {'training_time': 0.1809403896331787, 'samples_trained': 10000, 'features_count': 25, 'anomaly_ratio': 0.05, 'mean_anomaly_score': -0.41599162005735263, 'model_accuracy': 0.92}
+2025-09-13 16:53:51,823 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-13 16:53:51,828 - medguard - INFO - <module>:32 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-13 16:53:51,828 - medguard - INFO - initialize_application:20 - Initializing MedGuard AI database...
+2025-09-13 16:53:51,828 - medguard - INFO - initialize_application:24 - MedGuard AI system initialized successfully
+2025-09-13 16:53:51,828 - medguard - INFO - <module>:42 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-13 16:53:55,651 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 16:54:10,935 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device VENTILATOR_b37d6d81
+2025-09-13 16:54:11,084 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_b37d6d81: HIGH (0.72 confidence)
+2025-09-13 16:54:11,107 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on VENTILATOR_b37d6d81
+2025-09-13 16:54:12,899 - medguard - INFO - simulate_threat_scenario:147 - Simulating ransomware threat on device VENTILATOR_d9ac304e
+2025-09-13 16:54:12,932 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_d9ac304e: HIGH (0.79 confidence)
+2025-09-13 16:54:12,946 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: ransomware on VENTILATOR_d9ac304e
+2025-09-13 16:54:14,754 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device VENTILATOR_68e35623
+2025-09-13 16:54:14,803 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_68e35623: HIGH (0.54 confidence)
+2025-09-13 16:54:14,823 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on VENTILATOR_68e35623
+2025-09-13 16:55:07,463 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_06e1c5fc
+2025-09-13 16:55:07,511 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_06e1c5fc: HIGH (0.66 confidence)
+2025-09-13 16:55:07,524 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_06e1c5fc
+2025-09-13 16:58:01,891 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device VENTILATOR_b37d6d81
+2025-09-13 16:58:02,012 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_b37d6d81: HIGH (0.51 confidence)
+2025-09-13 16:58:02,040 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on VENTILATOR_b37d6d81
+2025-09-13 16:59:06,414 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-13 16:59:06,414 - medguard - INFO - _initialize_system:38 - Training anomaly detection model...
+2025-09-13 16:59:06,925 - medguard - INFO - _initialize_system:40 - Model training completed: {'training_time': 0.23933768272399902, 'samples_trained': 10000, 'features_count': 25, 'anomaly_ratio': 0.05, 'mean_anomaly_score': -0.40917589858644016, 'model_accuracy': 0.9492874341270076}
+2025-09-13 16:59:06,950 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-13 16:59:06,954 - medguard - INFO - <module>:32 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-13 16:59:06,955 - medguard - INFO - initialize_application:20 - Initializing MedGuard AI database...
+2025-09-13 16:59:06,955 - medguard - INFO - initialize_application:24 - MedGuard AI system initialized successfully
+2025-09-13 16:59:06,955 - medguard - INFO - <module>:42 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-13 16:59:12,088 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 16:59:37,557 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device VENTILATOR_b37d6d81
+2025-09-13 16:59:37,621 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_b37d6d81: HIGH (0.95 confidence)
+2025-09-13 16:59:37,644 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on VENTILATOR_b37d6d81
+2025-09-13 16:59:39,024 - medguard - INFO - simulate_threat_scenario:147 - Simulating ransomware threat on device VENTILATOR_d9ac304e
+2025-09-13 16:59:39,052 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_d9ac304e: HIGH (0.95 confidence)
+2025-09-13 16:59:39,064 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: ransomware on VENTILATOR_d9ac304e
+2025-09-13 16:59:40,243 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device VENTILATOR_68e35623
+2025-09-13 16:59:40,264 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on VENTILATOR_68e35623
+2025-09-13 17:00:44,656 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-13 17:00:44,656 - medguard - INFO - _initialize_system:38 - Training anomaly detection model...
+2025-09-13 17:00:45,125 - medguard - INFO - _initialize_system:40 - Model training completed: {'training_time': 0.21410202980041504, 'samples_trained': 10000, 'features_count': 25, 'anomaly_ratio': 0.05, 'mean_anomaly_score': -0.40917589858644016, 'model_accuracy': 0.906030663657946}
+2025-09-13 17:00:45,140 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-13 17:00:45,144 - medguard - INFO - <module>:32 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-13 17:00:45,144 - medguard - INFO - initialize_application:20 - Initializing MedGuard AI database...
+2025-09-13 17:00:45,145 - medguard - INFO - initialize_application:24 - MedGuard AI system initialized successfully
+2025-09-13 17:00:45,145 - medguard - INFO - <module>:42 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-13 17:00:48,887 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 17:01:00,913 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device VENTILATOR_b37d6d81
+2025-09-13 17:01:00,972 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_b37d6d81: HIGH (0.95 confidence)
+2025-09-13 17:01:00,984 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on VENTILATOR_b37d6d81
+2025-09-13 17:01:02,868 - medguard - INFO - simulate_threat_scenario:147 - Simulating ransomware threat on device VENTILATOR_d9ac304e
+2025-09-13 17:01:02,904 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_d9ac304e: HIGH (0.95 confidence)
+2025-09-13 17:01:02,921 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: ransomware on VENTILATOR_d9ac304e
+2025-09-13 17:01:04,588 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device VENTILATOR_68e35623
+2025-09-13 17:01:04,613 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on VENTILATOR_68e35623
+2025-09-13 17:01:33,451 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device VENTILATOR_68e35623
+2025-09-13 17:01:33,530 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on VENTILATOR_68e35623
+2025-09-13 17:02:41,519 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-13 17:02:41,519 - medguard - INFO - _initialize_system:38 - Training anomaly detection model...
+2025-09-13 17:02:42,213 - medguard - INFO - _initialize_system:40 - Model training completed: {'training_time': 0.3513824939727783, 'samples_trained': 10000, 'features_count': 25, 'anomaly_ratio': 0.05, 'mean_anomaly_score': -0.40917589858644016, 'model_accuracy': 0.906030663657946}
+2025-09-13 17:02:42,233 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-13 17:02:42,239 - medguard - INFO - <module>:32 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-13 17:02:42,240 - medguard - INFO - initialize_application:20 - Initializing MedGuard AI database...
+2025-09-13 17:02:42,240 - medguard - INFO - initialize_application:24 - MedGuard AI system initialized successfully
+2025-09-13 17:02:42,241 - medguard - INFO - <module>:42 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-13 17:02:46,088 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 17:02:58,350 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device VENTILATOR_b37d6d81
+2025-09-13 17:02:58,471 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_b37d6d81: HIGH (0.95 confidence)
+2025-09-13 17:02:58,488 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on VENTILATOR_b37d6d81
+2025-09-13 17:02:59,655 - medguard - INFO - simulate_threat_scenario:147 - Simulating ransomware threat on device VENTILATOR_d9ac304e
+2025-09-13 17:02:59,677 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_d9ac304e: HIGH (0.95 confidence)
+2025-09-13 17:02:59,697 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: ransomware on VENTILATOR_d9ac304e
+2025-09-13 17:03:01,332 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device VENTILATOR_68e35623
+2025-09-13 17:03:01,400 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_68e35623: HIGH (0.95 confidence)
+2025-09-13 17:03:01,411 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on VENTILATOR_68e35623
+2025-09-13 22:38:43,253 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-13 22:38:43,269 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-13 22:38:43,278 - medguard - INFO - <module>:32 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-13 22:38:43,282 - medguard - INFO - initialize_application:20 - Initializing MedGuard AI database...
+2025-09-13 22:38:43,290 - medguard - INFO - initialize_application:24 - MedGuard AI system initialized successfully
+2025-09-13 22:38:43,291 - medguard - INFO - <module>:42 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-13 22:39:29,360 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 22:39:45,062 - medguard - INFO - simulate_threat_scenario:147 - Simulating ransomware threat on device PATIENT_MONITOR_06e1c5fc
+2025-09-13 22:39:45,075 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_06e1c5fc: HIGH (0.95 confidence)
+2025-09-13 22:39:45,085 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: ransomware on PATIENT_MONITOR_06e1c5fc
+2025-09-13 22:39:52,876 - medguard - INFO - simulate_threat_scenario:147 - Simulating ransomware threat on device PATIENT_MONITOR_06e1c5fc
+2025-09-13 22:39:52,902 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_06e1c5fc: HIGH (0.95 confidence)
+2025-09-13 22:39:52,921 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: ransomware on PATIENT_MONITOR_06e1c5fc
+2025-09-13 22:44:47,513 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-13 22:44:48,436 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 22:44:53,879 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-13 22:44:54,204 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 22:44:54,635 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-13 22:44:54,828 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 22:44:54,952 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-13 22:44:55,130 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 22:44:55,252 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-13 22:44:55,433 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 22:49:29,668 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket

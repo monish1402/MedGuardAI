@@ -1,0 +1,1 @@
+# MedGuard AI Core Package

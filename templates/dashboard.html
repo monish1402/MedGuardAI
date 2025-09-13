@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedGuard AI - Medical Device Security Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/medguard.css') }}">
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>🏥 MedGuard AI</h1>
+                <p>Autonomous Medical Device Security System</p>
+            </div>
+            <div class="connection-status">
+                <div id="connectionStatus" class="status-indicator offline">
+                    <span class="indicator"></span>
+                    <span class="status-text">Connecting...</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="dashboard">
+        <!-- System Status Panel -->
+        <section class="status-panel">
+            <h2>System Status</h2>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-icon">💚</div>
+                    <div class="metric-content">
+                        <h3 id="systemHealth">HEALTHY</h3>
+                        <p>System Health</p>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">🏥</div>
+                    <div class="metric-content">
+                        <h3 id="deviceCount">0</h3>
+                        <p>Active Devices</p>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">🛡️</div>
+                    <div class="metric-content">
+                        <h3 id="threatCount">0</h3>
+                        <p>Threats Detected</p>
+                    </div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-icon">📊</div>
+                    <div class="metric-content">
+                        <h3 id="mlAccuracy">0%</h3>
+                        <p>ML Accuracy</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="dashboard-grid">
+            <!-- Device Inventory Panel -->
+            <section class="device-panel">
+                <div class="panel-header">
+                    <h2>Medical Device Inventory</h2>
+                    <button id="refreshDevices" class="btn btn-secondary">🔄 Refresh</button>
+                </div>
+                <div class="device-list" id="deviceList">
+                    <div class="loading">Loading devices...</div>
+                </div>
+            </section>
+
+            <!-- Security Alerts Panel -->
+            <section class="alerts-panel">
+                <div class="panel-header">
+                    <h2>Security Alerts</h2>
+                    <div class="alert-controls">
+                        <button id="clearAlerts" class="btn btn-tertiary">Clear</button>
+                    </div>
+                </div>
+                <div class="alerts-list" id="alertsList">
+                    <div class="no-alerts">No active threats detected</div>
+                </div>
+            </section>
+
+            <!-- Activity Log Panel -->
+            <section class="activity-panel">
+                <div class="panel-header">
+                    <h2>AI Decision Log</h2>
+                    <button id="clearLog" class="btn btn-tertiary">Clear</button>
+                </div>
+                <div class="activity-log" id="activityLog">
+                    <div class="log-entry">
+                        <span class="timestamp">[System Started]</span>
+                        <span class="message">MedGuard AI initialized successfully</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Control Panel -->
+            <section class="control-panel">
+                <div class="panel-header">
+                    <h2>Threat Simulation & Controls</h2>
+                </div>
+                <div class="control-content">
+                    <div class="simulation-controls">
+                        <h3>Threat Simulation</h3>
+                        <div class="form-group">
+                            <label for="deviceSelect">Target Device:</label>
+                            <select id="deviceSelect" class="form-control">
+                                <option value="">Select a device...</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="threatType">Threat Type:</label>
+                            <select id="threatType" class="form-control">
+                                <option value="malware">Malware</option>
+                                <option value="ransomware">Ransomware</option>
+                                <option value="data_breach">Data Breach</option>
+                                <option value="device_compromise">Device Compromise</option>
+                            </select>
+                        </div>
+                        <button id="simulateThreat" class="btn btn-primary">🚨 Simulate Threat</button>
+                    </div>
+                    
+                    <div class="system-controls">
+                        <h3>System Diagnostics</h3>
+                        <button id="runDiagnostics" class="btn btn-secondary">🔧 Run Diagnostics</button>
+                        <button id="refreshData" class="btn btn-secondary">📊 Refresh Data</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Performance Metrics -->
+        <section class="metrics-section">
+            <h2>Performance Metrics</h2>
+            <div class="metrics-display">
+                <div class="metric-item">
+                    <span class="label">Avg Response Time:</span>
+                    <span id="avgResponseTime" class="value">0ms</span>
+                </div>
+                <div class="metric-item">
+                    <span class="label">Analysis Speed:</span>
+                    <span id="analysisSpeed" class="value">0/min</span>
+                </div>
+                <div class="metric-item">
+                    <span class="label">Target Performance:</span>
+                    <span id="targetPerformance" class="value">0%</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Toast Notifications -->
+    <div id="toastContainer" class="toast-container"></div>
+
+    <!-- Diagnostics Modal -->
+    <div id="diagnosticsModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>System Diagnostics</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="diagnosticsContent">
+                    <div class="loading">Running diagnostics...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+</body>
+</html>
