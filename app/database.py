@@ -17,7 +17,6 @@ class MedGuardDatabase:
         conn = self.get_connection()
         cursor = conn.cursor()
         
-        # Medical Devices Table
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS devices (
                 id TEXT PRIMARY KEY,
@@ -34,7 +33,6 @@ class MedGuardDatabase:
             )
         ''')
         
-        # Threat Detections Table
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS threat_detections (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -49,7 +47,6 @@ class MedGuardDatabase:
             )
         ''')
         
-        # System Events Table
         cursor.execute('''
             CREATE TABLE IF NOT EXISTS system_events (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,

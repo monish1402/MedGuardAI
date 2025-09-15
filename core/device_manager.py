@@ -15,7 +15,6 @@ class MedGuardDeviceManager:
         self.active_devices = {}
         self.traffic_baselines = {}
         
-        # Initialize with sample devices
         self._initialize_sample_devices()
     
     def _initialize_device_templates(self) -> Dict[str, Dict[str, Any]]:
@@ -99,7 +98,7 @@ class MedGuardDeviceManager:
                     'protocol_diversity': (0.1, 0.2),
                     'encryption_ratio': (0.8, 1.0)
                 },
-                'patient_connection_probability': 0.3  # Only during emergencies
+                'patient_connection_probability': 0.3
             }
         }
     
@@ -126,7 +125,6 @@ class MedGuardDeviceManager:
         template = self.device_templates[device_type]
         device_id = f"{device_type.upper()}_{uuid.uuid4().hex[:8]}"
         
-        # Generate network baseline for the device
         network_baseline = {}
         for metric, (min_val, max_val) in template['network_profile'].items():
             network_baseline[metric] = random.uniform(min_val, max_val)
@@ -144,7 +142,7 @@ class MedGuardDeviceManager:
             'patient_connected': random.random() < template['patient_connection_probability'],
             'network_baseline': network_baseline,
             'created_at': datetime.now(),
-            'uptime_hours': random.randint(1, 8760)  # Up to 1 year
+            'uptime_hours': random.randint(1, 8760)  
         }
         
         return device
@@ -152,13 +150,10 @@ class MedGuardDeviceManager:
     def add_device(self, device_data: Dict[str, Any]) -> bool:
         """Add a device to the inventory"""
         try:
-            # Store in database
             success = self.db.add_device(device_data)
             
             if success:
-                # Store in active devices cache
                 self.active_devices[device_data['id']] = device_data
-                # Store baseline for traffic generation
                 self.traffic_baselines[device_data['id']] = device_data.get('network_baseline', {})
                 return True
             return False
@@ -183,7 +178,6 @@ class MedGuardDeviceManager:
         if device_id in self.active_devices:
             return self.active_devices[device_id]
         
-        # Query database if not in cache
         devices = self.db.get_devices()
         for device in devices:
             if device['id'] == device_id:
@@ -198,7 +192,7 @@ class MedGuardDeviceManager:
         if device:
             device['status'] = status
             device['last_seen'] = datetime.now()
-            return self.db.add_device(device)  # Update in database
+            return self.db.add_device(device)  
         return False
     
     def generate_network_traffic(self, device_id: str, add_noise: bool = True) -> Dict[str, float]:
@@ -209,7 +203,6 @@ class MedGuardDeviceManager:
         
         baseline = self.traffic_baselines.get(device_id, {})
         if not baseline:
-            # Generate baseline if not available
             template = self.device_templates.get(device['device_type'], {})
             baseline = {}
             for metric, (min_val, max_val) in template.get('network_profile', {}).items():
@@ -218,17 +211,14 @@ class MedGuardDeviceManager:
         
         traffic_data = {}
         
-        # Generate current traffic based on baseline with realistic variations
         for metric, base_value in baseline.items():
             if add_noise:
-                # Add realistic noise and variations
-                noise_factor = random.uniform(0.8, 1.2)  # ±20% variation
-                time_factor = 1 + 0.1 * random.sin(time.time() / 3600)  # Hourly patterns
+                noise_factor = random.uniform(0.8, 1.2)  
+                time_factor = 1 + 0.1 * random.sin(time.time() / 3600)  
                 traffic_data[metric] = base_value * noise_factor * time_factor
             else:
                 traffic_data[metric] = base_value
         
-        # Add additional computed features
         traffic_data.update({
             'failed_connections': random.uniform(0, 0.02),
             'suspicious_ports': random.uniform(0, 0.01),
@@ -240,7 +230,7 @@ class MedGuardDeviceManager:
             }.get(device.get('criticality_level', 'MEDIUM'), 0.5),
             'patient_connection_status': 1.0 if device.get('patient_connected') else 0.0,
             'medical_protocol_compliance': random.uniform(0.85, 1.0),
-            'emergency_mode_indicator': 0,  # Normal operation
+            'emergency_mode_indicator': 0,  
             'baseline_deviation_score': random.uniform(0, 0.2),
             'entropy_score': random.uniform(0.6, 0.8),
             'anomaly_burst_frequency': random.uniform(0, 0.01),
@@ -249,7 +239,6 @@ class MedGuardDeviceManager:
             'configuration_changes': random.uniform(0, 0.002)
         })
         
-        # Ensure all values are reasonable
         for key, value in traffic_data.items():
             if value < 0:
                 traffic_data[key] = 0
@@ -261,7 +250,6 @@ class MedGuardDeviceManager:
         normal_traffic = self.generate_network_traffic(device_id, add_noise=False)
         
         if anomaly_type == 'malware':
-            # Malware patterns - make clearly anomalous
             normal_traffic.update({
                 'packets_per_second': normal_traffic['packets_per_second'] * random.uniform(2.5, 4.0),
                 'unique_destinations': normal_traffic['unique_destinations'] * random.uniform(3.0, 5.0),
@@ -274,10 +262,9 @@ class MedGuardDeviceManager:
             })
         
         elif anomaly_type == 'ransomware':
-            # Ransomware patterns - make clearly anomalous
             normal_traffic.update({
                 'packets_per_second': normal_traffic['packets_per_second'] * random.uniform(2.0, 3.5),
-                'encryption_ratio': random.uniform(0.2, 0.4),  # Significant decrease
+                'encryption_ratio': random.uniform(0.2, 0.4),  
                 'network_topology_changes': random.uniform(0.1, 0.2),
                 'configuration_changes': random.uniform(0.05, 0.1),
                 'anomaly_burst_frequency': random.uniform(0.2, 0.4),
@@ -286,7 +273,6 @@ class MedGuardDeviceManager:
             })
         
         elif anomaly_type == 'data_breach':
-            # Data exfiltration patterns - make clearly anomalous
             normal_traffic.update({
                 'bandwidth_utilization': min(0.9, normal_traffic['bandwidth_utilization'] * random.uniform(3.0, 5.0)),
                 'avg_packet_size': normal_traffic['avg_packet_size'] * random.uniform(2.0, 3.5),
@@ -298,7 +284,6 @@ class MedGuardDeviceManager:
             })
         
         elif anomaly_type == 'device_compromise':
-            # Compromised device patterns - realistic degradation
             normal_traffic.update({
                 'medical_protocol_compliance': random.uniform(0.6, 0.75),
                 'baseline_deviation_score': random.uniform(0.3, 0.5),
@@ -316,7 +301,6 @@ class MedGuardDeviceManager:
         if not devices:
             return {'status': 'no_devices', 'total_devices': 0}
         
-        # Count by type
         type_counts = {}
         criticality_counts = {}
         status_counts = {}
@@ -324,31 +308,24 @@ class MedGuardDeviceManager:
         patient_connected_count = 0
         
         for device in devices:
-            # Device type distribution
             device_type = device['device_type']
             type_counts[device_type] = type_counts.get(device_type, 0) + 1
             
-            # Criticality distribution
             criticality = device['criticality_level']
             criticality_counts[criticality] = criticality_counts.get(criticality, 0) + 1
             
-            # Status distribution
             status = device['status']
             status_counts[status] = status_counts.get(status, 0) + 1
             
-            # Location distribution
             location = device['location']
             location_counts[location] = location_counts.get(location, 0) + 1
             
-            # Patient connections
             if device.get('patient_connected'):
                 patient_connected_count += 1
         
-        # Calculate security metrics
         security_scores = [d.get('security_score', 0) for d in devices]
         avg_security_score = sum(security_scores) / len(security_scores) if security_scores else 0
         
-        # Active devices (seen in last hour)
         recent_threshold = datetime.now() - timedelta(hours=1)
         active_devices = [d for d in devices if 
                          isinstance(d.get('last_seen'), datetime) and d['last_seen'] > recent_threshold]

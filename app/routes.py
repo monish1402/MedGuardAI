@@ -9,20 +9,16 @@ from app.database import MedGuardDatabase
 from core.threat_analyzer import MedGuardThreatAnalyzer
 from utils.logger import medguard_logger
 
-# Create Flask app and socketio instance
 app, socketio = create_app()
 
-# Initialize MedGuard components
 db = MedGuardDatabase()
 threat_analyzer = MedGuardThreatAnalyzer(db)
 
 def make_json_serializable(obj):
     """Convert numpy types and other non-serializable objects to JSON-serializable types"""
-    # Fast path for common native types
     if obj is None or isinstance(obj, (str, bool, int, float)):
         return obj
     
-    # Handle collections
     if isinstance(obj, dict):
         return {k: make_json_serializable(v) for k, v in obj.items()}
     elif isinstance(obj, list):
@@ -32,7 +28,6 @@ def make_json_serializable(obj):
     elif isinstance(obj, set):
         return [make_json_serializable(v) for v in obj]
     
-    # Handle numpy types
     elif isinstance(obj, np.integer):
         return int(obj)
     elif isinstance(obj, np.floating):
@@ -41,18 +36,15 @@ def make_json_serializable(obj):
         return bool(obj)
     elif isinstance(obj, np.ndarray):
         return obj.tolist()
-    elif hasattr(obj, 'item'):  # numpy scalar
+    elif hasattr(obj, 'item'):  
         return obj.item()
     
-    # Handle datetime objects
     elif hasattr(obj, 'isoformat'):
         return obj.isoformat()
     
-    # Handle mapping-like objects
     elif hasattr(obj, 'items'):
         return {k: make_json_serializable(v) for k, v in obj.items()}
     
-    # Default case
     else:
         return obj
 
@@ -100,7 +92,6 @@ def get_devices():
         
         devices = threat_analyzer.device_manager.get_devices(device_type, status)
         
-        # Format devices for API response
         formatted_devices = []
         for device in devices:
             formatted_device = {
@@ -140,7 +131,6 @@ def get_device_details(device_id: str):
         if not device:
             return jsonify({'error': 'Device not found'}), 404
         
-        # Get recent threat detections for this device
         recent_threats = db.get_recent_threats(10)
         device_threats = [t for t in recent_threats if t.get('device_id') == device_id]
         
@@ -191,15 +181,12 @@ def simulate_threat():
         if not device_id:
             return jsonify({'error': 'device_id is required'}), 400
         
-        # Validate device exists
         device = threat_analyzer.device_manager.get_device(device_id)
         if not device:
             return jsonify({'error': 'Device not found'}), 404
         
-        # Simulate threat
         simulation_result = threat_analyzer.simulate_threat_scenario(device_id, threat_type)
         
-        # Emit real-time update via WebSocket
         socketio.emit('threat_alert', {
             'device_id': device_id,
             'device_type': device.get('device_type'),
@@ -226,7 +213,6 @@ def simulate_threat():
 def analyze_device(device_id: str):
     """Analyze a specific device for threats"""
     try:
-        # Perform threat analysis
         analysis_result = threat_analyzer.analyze_device_threat(device_id)
         
         if analysis_result.get('analysis_failed'):
@@ -235,7 +221,6 @@ def analyze_device(device_id: str):
                 'error': analysis_result.get('error', 'Analysis failed')
             }), 500
         
-        # Emit real-time update if threat detected
         if analysis_result.get('threat_analysis', {}).get('is_anomaly'):
             socketio.emit('threat_alert', {
                 'device_id': device_id,
@@ -264,7 +249,6 @@ def get_system_diagnostics():
     """Get comprehensive system diagnostics"""
     try:
         diagnostics = threat_analyzer.get_system_diagnostics()
-        # Make sure all data types are JSON serializable
         clean_diagnostics = make_json_serializable(diagnostics)
         return jsonify(clean_diagnostics)
         
@@ -285,7 +269,6 @@ def health_check():
         'timestamp': datetime.now().isoformat()
     })
 
-# WebSocket events
 @socketio.on('connect')
 def handle_connect():
     """Handle client connection"""
@@ -340,10 +323,9 @@ def handle_device_status_request(data):
                     'timestamp': datetime.now().isoformat()
                 })
         else:
-            # Get all devices
             devices = threat_analyzer.device_manager.get_devices(status='active')
             emit('device_status', {
-                'devices': devices[:20],  # Limit to prevent overwhelming
+                'devices': devices[:20],  
                 'total_count': len(devices),
                 'timestamp': datetime.now().isoformat()
             })
@@ -368,7 +350,6 @@ def broadcast_system_metrics():
     except Exception as e:
         medguard_logger.error(f"Error broadcasting system metrics: {e}")
 
-# Error handlers
 @app.errorhandler(404)
 def not_found(error):
     return jsonify({'error': 'Endpoint not found'}), 404

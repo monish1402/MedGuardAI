@@ -318,3 +318,538 @@
 2025-09-13 22:44:55,252 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
 2025-09-13 22:44:55,433 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
 2025-09-13 22:49:29,668 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-13 23:32:09,667 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-13 23:32:09,684 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-13 23:32:09,695 - medguard - INFO - <module>:20 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-13 23:32:09,698 - medguard - INFO - initialize_application:11 - Initializing MedGuard AI database...
+2025-09-13 23:32:09,705 - medguard - INFO - initialize_application:13 - MedGuard AI system initialized successfully
+2025-09-13 23:32:09,705 - medguard - INFO - <module>:25 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-13 23:32:38,244 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 23:32:48,817 - medguard - INFO - simulate_threat_scenario:147 - Simulating ransomware threat on device PATIENT_MONITOR_c112b01b
+2025-09-13 23:32:48,832 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_c112b01b: HIGH (0.95 confidence)
+2025-09-13 23:32:48,843 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: ransomware on PATIENT_MONITOR_c112b01b
+2025-09-13 23:38:58,086 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-13 23:38:59,436 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 23:39:58,080 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-13 23:51:16,215 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-13 23:51:16,239 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-13 23:51:16,251 - medguard - INFO - <module>:20 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-13 23:51:16,254 - medguard - INFO - initialize_application:11 - Initializing MedGuard AI database...
+2025-09-13 23:51:16,259 - medguard - INFO - initialize_application:13 - MedGuard AI system initialized successfully
+2025-09-13 23:51:16,260 - medguard - INFO - <module>:25 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-13 23:51:27,421 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-13 23:51:54,974 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_c112b01b
+2025-09-13 23:51:54,989 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_c112b01b: HIGH (0.95 confidence)
+2025-09-13 23:51:55,002 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_c112b01b
+2025-09-13 23:51:55,729 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_c112b01b
+2025-09-13 23:51:55,741 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_c112b01b: HIGH (0.95 confidence)
+2025-09-13 23:51:55,750 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_c112b01b
+2025-09-13 23:51:56,403 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_c112b01b
+2025-09-13 23:51:56,421 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_c112b01b: HIGH (0.95 confidence)
+2025-09-13 23:51:56,435 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_c112b01b
+2025-09-13 23:51:57,955 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_c112b01b
+2025-09-13 23:51:57,970 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_c112b01b: HIGH (0.95 confidence)
+2025-09-13 23:51:57,985 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_c112b01b
+2025-09-13 23:53:06,437 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-14 16:01:57,950 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-14 16:01:57,977 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-14 16:01:57,988 - medguard - INFO - <module>:20 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-14 16:01:57,992 - medguard - INFO - initialize_application:11 - Initializing MedGuard AI database...
+2025-09-14 16:01:58,000 - medguard - INFO - initialize_application:13 - MedGuard AI system initialized successfully
+2025-09-14 16:01:58,001 - medguard - INFO - <module>:25 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-14 16:06:28,382 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-14 16:13:53,156 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 01:02:22,821 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-15 01:02:22,849 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-15 01:02:22,858 - medguard - INFO - <module>:20 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-15 01:02:22,862 - medguard - INFO - initialize_application:11 - Initializing MedGuard AI database...
+2025-09-15 01:02:22,869 - medguard - INFO - initialize_application:13 - MedGuard AI system initialized successfully
+2025-09-15 01:02:22,870 - medguard - INFO - <module>:25 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-15 01:02:25,244 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 01:06:44,990 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 01:07:10,126 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 01:09:45,074 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 01:09:46,555 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 01:09:57,419 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 01:09:57,818 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 01:12:47,690 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 01:15:41,292 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 01:15:41,685 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 01:15:42,108 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 01:15:44,940 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 09:48:59,645 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-15 09:48:59,672 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-15 09:48:59,680 - medguard - INFO - <module>:20 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-15 09:48:59,683 - medguard - INFO - initialize_application:11 - Initializing MedGuard AI database...
+2025-09-15 09:48:59,688 - medguard - INFO - initialize_application:13 - MedGuard AI system initialized successfully
+2025-09-15 09:48:59,688 - medguard - INFO - <module>:25 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-15 09:49:53,740 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 09:56:51,126 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 09:56:53,500 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 09:57:51,102 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 09:57:53,398 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 09:58:51,105 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 09:58:53,420 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 09:59:51,109 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 09:59:53,424 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:00:51,099 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:00:52,418 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:01:51,099 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:08:04,184 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:11:05,139 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 10:11:05,223 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 10:11:05,255 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on PATIENT_MONITOR_19f07b00
+2025-09-15 10:13:39,454 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 10:13:39,465 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 10:13:39,479 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on PATIENT_MONITOR_19f07b00
+2025-09-15 10:16:51,119 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:16:53,450 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:17:38,786 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:20:19,893 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:22:51,139 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:22:52,458 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:23:51,149 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:23:53,442 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:24:51,167 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:24:52,444 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:25:51,156 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:25:52,449 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:32:34,385 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:37:20,393 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:37:23,931 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:37:24,600 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:37:43,784 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:37:44,487 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:37:44,807 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:37:45,103 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:37:45,642 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:37:45,858 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:37:45,951 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:37:46,185 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:37:46,304 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:37:46,507 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:37:46,513 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:37:46,697 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:37:46,703 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:37:46,860 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:37:46,868 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:37:47,725 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:38:41,481 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:38:42,247 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:43:51,209 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:43:53,577 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:44:51,154 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:44:53,478 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:45:51,158 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:45:53,462 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:51:51,190 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:51:53,524 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:52:51,182 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 10:52:52,499 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 10:53:37,860 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 11:08:32,668 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 11:20:51,209 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 11:20:52,525 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 11:21:51,191 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 11:21:53,496 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 11:22:51,186 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 11:22:52,498 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 11:23:51,181 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 11:23:53,497 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 11:24:38,806 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 11:35:20,736 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 11:40:30,734 - medguard - INFO - simulate_threat_scenario:147 - Simulating device_compromise threat on device VENTILATOR_4ab15b4a
+2025-09-15 11:40:30,801 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_4ab15b4a: HIGH (0.95 confidence)
+2025-09-15 11:40:30,823 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: device_compromise on VENTILATOR_4ab15b4a
+2025-09-15 11:47:51,208 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 11:47:53,551 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 11:48:51,204 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 11:48:52,510 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 11:49:51,209 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 11:58:19,704 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 11:59:54,727 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:00:32,965 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-15 12:00:32,985 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-15 12:00:32,992 - medguard - INFO - <module>:20 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-15 12:00:32,994 - medguard - INFO - initialize_application:11 - Initializing MedGuard AI database...
+2025-09-15 12:00:33,002 - medguard - INFO - initialize_application:13 - MedGuard AI system initialized successfully
+2025-09-15 12:00:33,002 - medguard - INFO - <module>:25 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-15 12:00:33,062 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:00:39,820 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:00:41,091 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:00:52,573 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_1e05e483
+2025-09-15 12:00:52,588 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_1e05e483: HIGH (0.95 confidence)
+2025-09-15 12:00:52,604 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_1e05e483
+2025-09-15 12:00:55,097 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_06e1c5fc
+2025-09-15 12:00:55,116 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_06e1c5fc: HIGH (0.95 confidence)
+2025-09-15 12:00:55,134 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_06e1c5fc
+2025-09-15 12:00:58,621 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device VENTILATOR_468d3884
+2025-09-15 12:00:58,649 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_468d3884: HIGH (0.95 confidence)
+2025-09-15 12:00:58,677 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on VENTILATOR_468d3884
+2025-09-15 12:04:33,145 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:04:58,458 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-15 12:04:58,474 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-15 12:04:58,482 - medguard - INFO - <module>:20 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-15 12:04:58,485 - medguard - INFO - initialize_application:11 - Initializing MedGuard AI database...
+2025-09-15 12:04:58,492 - medguard - INFO - initialize_application:13 - MedGuard AI system initialized successfully
+2025-09-15 12:04:58,494 - medguard - INFO - <module>:25 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-15 12:05:03,601 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:05:07,638 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:05:09,197 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:05:21,451 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_06e1c5fc
+2025-09-15 12:05:21,468 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_06e1c5fc: HIGH (0.95 confidence)
+2025-09-15 12:05:21,480 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_06e1c5fc
+2025-09-15 12:05:27,842 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device PATIENT_MONITOR_f0d2245d
+2025-09-15 12:05:27,864 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_f0d2245d: HIGH (0.95 confidence)
+2025-09-15 12:05:27,896 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on PATIENT_MONITOR_f0d2245d
+2025-09-15 12:05:30,501 - medguard - INFO - simulate_threat_scenario:147 - Simulating ransomware threat on device PATIENT_MONITOR_f0d2245d
+2025-09-15 12:05:30,538 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_f0d2245d: HIGH (0.95 confidence)
+2025-09-15 12:05:30,556 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: ransomware on PATIENT_MONITOR_f0d2245d
+2025-09-15 12:05:36,682 - medguard - INFO - simulate_threat_scenario:147 - Simulating ransomware threat on device VENTILATOR_601e25a5
+2025-09-15 12:05:36,706 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_601e25a5: HIGH (0.95 confidence)
+2025-09-15 12:05:36,723 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: ransomware on VENTILATOR_601e25a5
+2025-09-15 12:06:38,946 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:07:08,285 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-15 12:07:08,300 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-15 12:07:08,312 - medguard - INFO - <module>:20 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-15 12:07:08,317 - medguard - INFO - initialize_application:11 - Initializing MedGuard AI database...
+2025-09-15 12:07:08,323 - medguard - INFO - initialize_application:13 - MedGuard AI system initialized successfully
+2025-09-15 12:07:08,324 - medguard - INFO - <module>:25 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-15 12:07:11,519 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:07:19,012 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:07:20,404 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:07:51,522 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:08:03,084 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-15 12:08:03,107 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-15 12:08:03,120 - medguard - INFO - <module>:20 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-15 12:08:03,123 - medguard - INFO - initialize_application:11 - Initializing MedGuard AI database...
+2025-09-15 12:08:03,127 - medguard - INFO - initialize_application:13 - MedGuard AI system initialized successfully
+2025-09-15 12:08:03,128 - medguard - INFO - <module>:25 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-15 12:08:05,512 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:08:07,933 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:08:08,917 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:08:24,883 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_06e1c5fc
+2025-09-15 12:08:24,908 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_06e1c5fc: HIGH (0.95 confidence)
+2025-09-15 12:08:24,931 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_06e1c5fc
+2025-09-15 12:08:28,724 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device VENTILATOR_8c6e1c60
+2025-09-15 12:08:28,738 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_8c6e1c60: HIGH (0.95 confidence)
+2025-09-15 12:08:28,751 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on VENTILATOR_8c6e1c60
+2025-09-15 12:13:45,661 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:13:47,611 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:14:45,675 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:14:47,536 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:15:45,712 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:15:47,528 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:16:32,861 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:25:21,878 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:25:50,928 - medguard - INFO - simulate_threat_scenario:147 - Simulating ransomware threat on device VENTILATOR_ba1048e2
+2025-09-15 12:25:50,987 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_ba1048e2: HIGH (0.95 confidence)
+2025-09-15 12:25:51,011 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: ransomware on VENTILATOR_ba1048e2
+2025-09-15 12:26:33,268 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:26:33,923 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:28:58,935 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:29:24,344 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-15 12:29:24,378 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-15 12:29:24,391 - medguard - INFO - <module>:20 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-15 12:29:24,395 - medguard - INFO - initialize_application:11 - Initializing MedGuard AI database...
+2025-09-15 12:29:24,402 - medguard - INFO - initialize_application:13 - MedGuard AI system initialized successfully
+2025-09-15 12:29:24,404 - medguard - INFO - <module>:25 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-15 12:29:26,481 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:29:37,764 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:29:39,160 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:29:44,411 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_06e1c5fc
+2025-09-15 12:29:44,434 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_06e1c5fc: HIGH (0.95 confidence)
+2025-09-15 12:29:44,455 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_06e1c5fc
+2025-09-15 12:29:50,150 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_06e1c5fc
+2025-09-15 12:29:50,171 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_06e1c5fc: HIGH (0.95 confidence)
+2025-09-15 12:29:50,189 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_06e1c5fc
+2025-09-15 12:29:51,162 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_06e1c5fc
+2025-09-15 12:29:51,194 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_06e1c5fc: HIGH (0.95 confidence)
+2025-09-15 12:29:51,214 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_06e1c5fc
+2025-09-15 12:29:51,450 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_06e1c5fc
+2025-09-15 12:29:51,486 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_06e1c5fc: HIGH (0.95 confidence)
+2025-09-15 12:29:51,506 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_06e1c5fc
+2025-09-15 12:29:51,772 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_06e1c5fc
+2025-09-15 12:29:51,808 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_06e1c5fc: HIGH (0.95 confidence)
+2025-09-15 12:29:51,834 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_06e1c5fc
+2025-09-15 12:29:54,348 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_c55f95f8
+2025-09-15 12:29:54,379 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_c55f95f8: HIGH (0.95 confidence)
+2025-09-15 12:29:54,400 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_c55f95f8
+2025-09-15 12:29:57,814 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device VENTILATOR_4ab15b4a
+2025-09-15 12:29:57,850 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_4ab15b4a: HIGH (0.95 confidence)
+2025-09-15 12:29:57,873 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on VENTILATOR_4ab15b4a
+2025-09-15 12:29:59,793 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:30:00,517 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:37:26,689 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:37:28,657 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:38:38,637 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:41:46,442 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-15 12:41:46,474 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-15 12:41:46,484 - medguard - INFO - <module>:20 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-15 12:41:46,488 - medguard - INFO - initialize_application:11 - Initializing MedGuard AI database...
+2025-09-15 12:41:46,494 - medguard - INFO - initialize_application:13 - MedGuard AI system initialized successfully
+2025-09-15 12:41:46,496 - medguard - INFO - <module>:25 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-15 12:41:54,390 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:41:56,971 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:41:57,999 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:42:08,604 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:08,619 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:08,632 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:11,261 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:11,282 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:11,298 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:11,670 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:11,688 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:11,705 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:12,108 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:12,125 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:12,147 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:12,421 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:12,436 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:12,454 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:12,663 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:12,684 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:12,698 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:12,857 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:12,880 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:12,900 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:13,047 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:13,063 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:13,077 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:13,645 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:13,671 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:13,688 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:13,871 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:13,887 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:13,902 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:14,073 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:14,093 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:14,108 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:14,284 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:14,313 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:14,327 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:14,466 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:14,498 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:14,513 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:14,664 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:14,680 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:14,691 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:14,862 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:14,873 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:14,884 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:15,048 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:15,062 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:15,072 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:15,401 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:15,418 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:15,432 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:15,621 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:15,641 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:15,658 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:16,169 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:16,184 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:16,201 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:16,279 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:16,297 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:16,311 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:16,487 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_19f07b00
+2025-09-15 12:42:16,504 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_19f07b00: HIGH (0.95 confidence)
+2025-09-15 12:42:16,515 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_19f07b00
+2025-09-15 12:46:07,715 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:46:26,188 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-15 12:46:26,203 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-15 12:46:26,215 - medguard - INFO - <module>:20 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-15 12:46:26,218 - medguard - INFO - initialize_application:11 - Initializing MedGuard AI database...
+2025-09-15 12:46:26,226 - medguard - INFO - initialize_application:13 - MedGuard AI system initialized successfully
+2025-09-15 12:46:26,226 - medguard - INFO - <module>:25 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-15 12:46:28,533 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:46:35,520 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:46:36,123 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:47:36,245 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:47:52,195 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-15 12:47:52,221 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-15 12:47:52,236 - medguard - INFO - <module>:20 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-15 12:47:52,240 - medguard - INFO - initialize_application:11 - Initializing MedGuard AI database...
+2025-09-15 12:47:52,247 - medguard - INFO - initialize_application:13 - MedGuard AI system initialized successfully
+2025-09-15 12:47:52,248 - medguard - INFO - <module>:25 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-15 12:47:56,549 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:48:00,223 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:48:01,203 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:48:08,054 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device VENTILATOR_4ab15b4a
+2025-09-15 12:48:08,104 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_4ab15b4a: HIGH (0.95 confidence)
+2025-09-15 12:48:08,132 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on VENTILATOR_4ab15b4a
+2025-09-15 12:48:12,171 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:48:12,721 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 12:48:41,687 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_7c16e4d6
+2025-09-15 12:48:41,764 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_7c16e4d6: HIGH (0.95 confidence)
+2025-09-15 12:48:41,840 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_7c16e4d6
+2025-09-15 12:48:46,795 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_7c16e4d6
+2025-09-15 12:48:46,832 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_7c16e4d6: HIGH (0.95 confidence)
+2025-09-15 12:48:46,852 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_7c16e4d6
+2025-09-15 12:48:55,048 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_7c16e4d6
+2025-09-15 12:48:55,069 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_7c16e4d6: HIGH (0.95 confidence)
+2025-09-15 12:48:55,087 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_7c16e4d6
+2025-09-15 12:48:58,211 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_7c16e4d6
+2025-09-15 12:48:58,255 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_7c16e4d6: HIGH (0.95 confidence)
+2025-09-15 12:48:58,272 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_7c16e4d6
+2025-09-15 12:56:50,360 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 12:56:52,766 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 13:39:18,082 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 13:39:25,617 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 13:40:11,981 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 13:40:22,915 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 13:58:05,911 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 14:21:47,511 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 14:22:32,735 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 14:23:31,103 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 14:23:46,519 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 14:23:52,803 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 14:27:38,251 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 14:33:39,007 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 14:35:55,154 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 14:35:56,724 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 14:36:18,230 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 14:36:18,996 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 14:38:14,494 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 14:38:16,155 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 14:38:52,949 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 14:38:53,617 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 14:43:51,272 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 15:00:28,393 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 15:01:24,466 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 15:13:28,461 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 15:16:00,287 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device PATIENT_MONITOR_06e1c5fc
+2025-09-15 15:16:00,477 - medguard - WARNING - analyze_device_threat:120 - Threat detected on patient_monitor PATIENT_MONITOR_06e1c5fc: HIGH (0.95 confidence)
+2025-09-15 15:16:00,513 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on PATIENT_MONITOR_06e1c5fc
+2025-09-15 15:16:06,047 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 15:16:07,223 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 15:16:24,016 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 15:16:24,918 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 15:17:52,520 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 15:17:53,248 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 15:18:04,702 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 15:18:47,200 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-15 15:18:47,243 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-15 15:18:47,265 - medguard - INFO - <module>:20 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-15 15:18:47,269 - medguard - INFO - initialize_application:11 - Initializing MedGuard AI database...
+2025-09-15 15:18:47,284 - medguard - INFO - initialize_application:13 - MedGuard AI system initialized successfully
+2025-09-15 15:18:47,287 - medguard - INFO - <module>:25 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-15 15:18:51,926 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 15:20:30,341 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 15:20:31,434 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 15:22:25,470 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 15:22:26,269 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 15:22:31,293 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 15:23:01,414 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-15 15:23:01,448 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-15 15:23:01,467 - medguard - INFO - <module>:20 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-15 15:23:01,471 - medguard - INFO - initialize_application:11 - Initializing MedGuard AI database...
+2025-09-15 15:23:01,482 - medguard - INFO - initialize_application:13 - MedGuard AI system initialized successfully
+2025-09-15 15:23:01,484 - medguard - INFO - <module>:25 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-15 15:23:06,115 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 15:23:44,795 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 15:23:45,620 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 15:25:02,339 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 15:25:03,507 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 15:29:45,281 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 15:29:47,654 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 15:30:45,354 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 15:30:47,242 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 15:31:45,393 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 15:31:47,533 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 15:32:32,855 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 16:03:18,757 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 16:03:38,673 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device VENTILATOR_468d3884
+2025-09-15 16:03:38,703 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_468d3884: HIGH (0.95 confidence)
+2025-09-15 16:03:38,715 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on VENTILATOR_468d3884
+2025-09-15 16:03:42,568 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 16:03:43,138 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 16:07:48,227 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 16:11:12,439 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 16:17:24,890 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 17:10:40,041 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-15 17:10:40,057 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-15 17:10:40,064 - medguard - INFO - <module>:20 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-15 17:10:40,066 - medguard - INFO - initialize_application:11 - Initializing MedGuard AI database...
+2025-09-15 17:10:40,070 - medguard - INFO - initialize_application:13 - MedGuard AI system initialized successfully
+2025-09-15 17:10:40,071 - medguard - INFO - <module>:25 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-15 17:10:44,856 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 17:12:01,807 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device VENTILATOR_b37d6d81
+2025-09-15 17:12:01,832 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ventilator VENTILATOR_b37d6d81: HIGH (0.95 confidence)
+2025-09-15 17:12:01,850 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on VENTILATOR_b37d6d81
+2025-09-15 17:12:19,404 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 17:12:20,075 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 17:46:45,452 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 17:46:47,585 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 17:47:32,909 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 18:00:02,367 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 18:03:51,217 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 18:03:52,548 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 18:04:51,213 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 18:11:05,375 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 18:18:21,482 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device DEFIBRILLATOR_396a29d2
+2025-09-15 18:18:21,545 - medguard - WARNING - analyze_device_threat:120 - Threat detected on defibrillator DEFIBRILLATOR_396a29d2: HIGH (0.95 confidence)
+2025-09-15 18:18:21,564 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on DEFIBRILLATOR_396a29d2
+2025-09-15 18:18:27,710 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 18:18:28,529 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 18:18:52,205 - medguard - INFO - simulate_threat_scenario:147 - Simulating malware threat on device CT_SCANNER_4ed66928
+2025-09-15 18:18:52,236 - medguard - WARNING - analyze_device_threat:120 - Threat detected on ct_scanner CT_SCANNER_4ed66928: HIGH (0.95 confidence)
+2025-09-15 18:18:52,256 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: malware on CT_SCANNER_4ed66928
+2025-09-15 18:19:01,156 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 18:19:01,361 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 18:28:35,498 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 18:28:37,537 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 18:29:51,226 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 18:29:53,516 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 18:30:51,200 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 18:30:53,519 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 18:31:51,220 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 18:31:52,515 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 18:32:51,215 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 18:32:53,219 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 18:33:51,216 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 20:17:16,571 - medguard - INFO - _initialize_system:34 - Initializing MedGuard AI Threat Analysis System
+2025-09-15 20:17:16,590 - medguard - INFO - _initialize_system:52 - MedGuard AI system initialization completed successfully
+2025-09-15 20:17:16,602 - medguard - INFO - <module>:20 - Starting MedGuard AI - Autonomous Medical Device Security System
+2025-09-15 20:17:16,605 - medguard - INFO - initialize_application:11 - Initializing MedGuard AI database...
+2025-09-15 20:17:16,613 - medguard - INFO - initialize_application:13 - MedGuard AI system initialized successfully
+2025-09-15 20:17:16,614 - medguard - INFO - <module>:25 - Starting MedGuard AI server on 0.0.0.0:5000
+2025-09-15 20:43:11,664 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 20:43:14,111 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 20:43:17,348 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 20:47:51,232 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 20:47:52,573 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 20:48:51,216 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 20:48:52,533 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 20:49:37,467 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 20:49:38,304 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 20:57:28,431 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 20:57:30,578 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 20:58:51,212 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 20:58:52,531 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 20:59:51,231 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 21:28:28,189 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 21:31:45,141 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 21:31:47,594 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 21:32:45,207 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 21:32:46,526 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 21:33:45,217 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 21:33:47,548 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 21:34:45,239 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 21:34:46,547 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 21:35:45,247 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 21:35:47,526 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 21:36:45,287 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 22:03:29,246 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 22:04:06,145 - medguard - INFO - simulate_threat_scenario:147 - Simulating data_breach threat on device INFUSION_PUMP_e8c1481c
+2025-09-15 22:04:06,245 - medguard - WARNING - analyze_device_threat:120 - Threat detected on infusion_pump INFUSION_PUMP_e8c1481c: HIGH (0.95 confidence)
+2025-09-15 22:04:06,273 - medguard - INFO - simulate_threat_scenario:180 - Threat simulation completed: data_breach on INFUSION_PUMP_e8c1481c
+2025-09-15 22:04:13,377 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 22:04:13,866 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 22:12:46,194 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 22:12:48,584 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 22:13:46,250 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 22:13:48,534 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 22:14:46,348 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket
+2025-09-15 22:14:48,529 - medguard - INFO - handle_connect:292 - Client connected to WebSocket
+2025-09-15 22:15:46,375 - medguard - INFO - handle_disconnect:302 - Client disconnected from WebSocket

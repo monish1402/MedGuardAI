@@ -6,17 +6,15 @@ class Config:
     ML_MODEL_PATH = 'data/models/anomaly_detector.joblib'
     LOG_PATH = 'data/logs/medguard.log'
     
-    # ML Configuration
     ANOMALY_THRESHOLD = 0.1
-    MODEL_RETRAIN_INTERVAL = 3600  # seconds
+    MODEL_RETRAIN_INTERVAL = 3600  
     
-    # Device Configuration
     SUPPORTED_DEVICE_TYPES = [
         'ventilator', 'patient_monitor', 'infusion_pump', 
         'ct_scanner', 'defibrillator'
     ]
     
-    # Response Time Targets (milliseconds)
+
     RESPONSE_TIME_TARGETS = {
         'ventilator': 25,
         'patient_monitor': 50,
@@ -25,6 +23,6 @@ class Config:
         'defibrillator': 25
     }
     
-    # Threat Simulation Settings
+  
     SIMULATION_ENABLED = True
     DEMO_MODE = True
